@@ -92,6 +92,7 @@ class Timer extends React.Component {
 
     //___________________________________________________________________________________________
     //RENDER - what's on display
+    /* eslint-disable */
     render() {
         return (
             <section>
@@ -109,24 +110,21 @@ class Timer extends React.Component {
                 </section>
 
                 <section className={"timer-actions"}>
-                    <button
-                        className={"button-timer"}
-                        type={"button"}
-                        onClick={() => this.playTimer}>
+                <button className="button-timer"
+                        type="button"
+                        onClick={this.playTimer}>
                         {" "}
                         <FaPlay size={24} color={"#0E2431"} />
                     </button>
-                    <button
-                        className={"button-timer"}
-                        type={"button"}
-                        onClick={() => this.stopTimer}>
+                    <button className="button-timer"
+                        type="button"
+                        onClick={this.stopTimer}>
                         {" "}
                         <FaPause size={24} color={"#0E2431"} />
                     </button>
-                    <button
-                        className={"button-timer"}
-                        type={"button"}
-                        onClick={() => this.resetTimer}>
+                    <button className="button-timer"
+                        type="button"
+                        onClick={this.resetTimer}>
                         {" "}
                         <FaRedoAlt size={24} color={"#0E2431"} />
                     </button>

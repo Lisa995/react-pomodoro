@@ -87,13 +87,14 @@ class Pomodoro extends React.Component {
             timerMinute: this.state.workLength,
         });
     }
-
+    /* eslint-disable */
     // start and stop timer function
     onPlayStopTimer(isPlay) {
-        this.setState({
-            isPlay,
-        });
+      this.setState({
+        isPlay: isPlay
+      });
     }
+    /* eslint-enable */
 
     //_____________________________________________________________________________________________
     // RENDER - what is on display
@@ -108,7 +109,9 @@ class Pomodoro extends React.Component {
                         updateTimerMinute={this.onUpdateTimerMinute}
                         toggleInterval={this.onToggleInterval}
                         resetTimer={this.onResetTimer}
-                        onPlayStopTimer={() => this.onPlayStopTimer}
+                        /* eslint-disable */
+                        onPlayStopTimer={this.onPlayStopTimer}
+                        /*eslint-enable*/
                     />
 
                     <WorkController
