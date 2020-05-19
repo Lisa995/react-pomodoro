@@ -23,20 +23,14 @@ function WorkController(props) {
             <section className={"work"}>
                 <h4>{"Work"}</h4>
                 <section className={"interval-container"}>
-                    <button
-                        type={"button"}
-                        disabled={props.isPlay === true ? "disabled" : ""}
-                        onClick={decreaseWork}>
+                    <button type={"button"} onClick={decreaseWork}>
                         {" "}
                         <FaAngleLeft size={32} color={"white"} />{" "}
                     </button>
 
                     <p className={"interval-length"}>{props.workLength}</p>
 
-                    <button
-                        type={"button"}
-                        disabled={props.isPlay === true ? "disabled" : ""}
-                        onClick={increaseWork}>
+                    <button type={"button"} onClick={increaseWork}>
                         {" "}
                         <FaAngleRight size={32} color={"white"} />{" "}
                     </button>

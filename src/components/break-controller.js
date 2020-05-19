@@ -27,7 +27,6 @@ function BreakController(props) {
                     <button
                         type={"button"}
                         className={"button-break"}
-                        disabled={props.isPlay === true ? "disabled" : " "}
                         onClick={decreaseCounter}>
                         {" "}
                         <FaAngleLeft size={32} color={"white"} />
@@ -36,7 +35,6 @@ function BreakController(props) {
                     <button
                         type={"button"}
                         className={"button-break"}
-                        disabled={props.isPlay === true ? "disabled" : " "}
                         onClick={increaseCounter}>
                         {" "}
                         <FaAngleRight size={32} color={"white"} />

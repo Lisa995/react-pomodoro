@@ -49,6 +49,7 @@ h4{
 }
 
 .button-timer :active{
+    outline: none;
     border: none;
 }
 
