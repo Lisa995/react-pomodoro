@@ -42,5 +42,13 @@
     "hooks": {
       "pre-commit": "npx lint-staged"
     }
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.38",
+    "moment": "^2.25.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icon": "^1.0.0",
+    "react-icons": "^3.10.0"
   }
 }

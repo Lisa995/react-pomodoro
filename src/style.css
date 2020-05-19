@@ -1,0 +1,93 @@
+html{
+    background-color: #0E2431;
+    font-family: 'Quicksand', sans-serif;
+    color: #F5E4C3;
+    text-align: center;
+}
+
+h1{
+    margin: 48px;;
+    font-family: 'Comfortaa', cursive;
+    color: #EA4C4C;
+    font-size: 48px
+}
+
+h2{
+    font-size: 32px;
+}
+
+h4{
+    font-size: 32px;
+    margin: 16px;
+    color: #C14545;
+
+}
+
+.timer-container{
+    margin: auto;
+    padding: 20px;
+    border: solid 5px #C14545;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+
+}
+.timer{
+    font-size: 80px;
+    color: #FAF4D0;
+    
+
+}
+
+.button-timer{
+    margin: 10px;
+    background-color: #FAF4D0;
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.button-timer :active{
+    border: none;
+}
+
+.controllers{
+    width: 320px;
+    margin: auto;   
+}
+
+.work{
+    margin-top: 40px;
+    display: flex;
+}
+
+.break{
+    display: flex;
+}
+
+.interval-container {
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+  }
+
+p{
+    margin: 8px;
+    padding: 8px;
+    font-size: 32px;
+
+}
+
+button{
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+  }
+
